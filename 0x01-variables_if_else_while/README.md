@@ -1,1 +1,1 @@
-The more brains you use, the less material you need
+do more of what you do
