@@ -1,14 +1,22 @@
 #include <unistd.h>
 
 /**
- * _abs - returns absolute value of n
- *@n: integer value to be tested
- *Return: absolute value of n
+ *_abs - Computes the absolute value of an integer
  *
+ * @n: n is an integer
+ *
+ * Return: integer
  */
 
 int _abs(int n)
 {
-if (n >= 0)
+if (n < 0)
+{
+n *= -1;
 return (n);
+}
+else
+{
+return (n);
+}
 }
